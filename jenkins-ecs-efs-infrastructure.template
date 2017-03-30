@@ -8,8 +8,8 @@
   "Parameters": {
     "BusinessUnit": {
       "Type": "Number",
-      "Default": "0017130",
-      "Description": "Cost center number to bill resource against - 7 digit number normally.",
+      "Default": "0000000",
+      "Description": "Business Unit number to bill resource against",
       "MinValue": "0000000",
       "MaxValue": "9999999"
     },
