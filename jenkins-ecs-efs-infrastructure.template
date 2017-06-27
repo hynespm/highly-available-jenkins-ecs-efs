@@ -242,26 +242,9 @@
             "IpProtocol" : "tcp",
             "FromPort" : "80",
             "ToPort" : "80",
-            "CidrIp": "157.204.0.0/16"
-         },
-         {
-            "IpProtocol" : "tcp",
-            "FromPort" : "80",
-            "ToPort" : "80",
-            "CidrIp": "10.0.0.0/8"
-         },
-         {
-            "IpProtocol" : "tcp",
-            "FromPort" : "80",
-            "ToPort" : "80",
-            "CidrIp": "172.16.0.0/12"
-         },
-          {
-            "IpProtocol" : "tcp",
-            "FromPort" : "80",
-            "ToPort" : "80",
-            "CidrIp": "192.168.0.0/16"
+            "CidrIp": "0.0.0.0/0"
          }
+
          ],
         "GroupDescription": "Self-referencing security group to allow all traffic between ECS container instances and ELBs"
       },
@@ -306,7 +289,7 @@
             "IpProtocol": "tcp",
             "FromPort": "22",
             "ToPort": "22",
-            "CidrIp": "157.204.0.0/16"
+            "CidrIp": "0.0.0.0/0"
           }
         ]
       },
