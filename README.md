@@ -2,9 +2,13 @@
 
 ## Author : Patrick Hynes
 
-##Introduction
+## Introduction
 
 This repository is a cloudformation template used to setup an highly available Jenkins Build Server (https://jenkins.io/) using a combination of the Elastic Container Service and the Elastic File System (http://docs.aws.amazon.com/efs/latest/ug/getting-started.html). The application deployed using the Jenkins Docker container listed on Dockerhub (https://hub.docker.com/r/jenkinsci/jenkins/). The jenkins master server should be able to leverage its own ECS cluster or others to run jobs on Jenkins slaves created in the ECS service as tasks.
+
+## Repository Structure
+
+* [jenkins-ecs-efs-infrastructure.template](jenkins-ecs-efs-infrastructure.template)
 
 ## Feedback
 
